@@ -11,7 +11,7 @@ This project enables users to:
 - Compare fasting protocols (e.g., 16:8, 5:2, alternate-day).
 - Save time with AI-powered insights and source attribution.
 
----
+
 ## 🚨 Real-World Challenges in Research
 
 Clinicians exploring intermittent fasting (IF) face:
@@ -36,6 +36,7 @@ And instantly receive:
 
 All delivered in seconds—saving time and improving care.
 
+### 📸 Demo
 
 ---
 
@@ -52,29 +53,6 @@ All delivered in seconds—saving time and improving care.
 - 🧠 **LLM Integration**: Uses transformer-based models to generate contextual answers with references.
 - 🗃️ **Vector Store**: Stores embeddings in ChromaDB for efficient retrieval.
 
----
-
-## ⚙️ Setup Instructions
-
-1. **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-2. **Configure environment variables**
-
-    Create a `.env` file in the root directory:
-    ```env
-    MODEL_PROVIDER=MODEL_NAME_HERE
-    API_KEY=YOUR_API_KEY_HERE
-    ```
-
-3. **Launch the app**
-    ```bash
-    streamlit run app.py
-    ```
-
----
 
 ## 🧪 How to Use
 
@@ -99,11 +77,33 @@ Once the app launches in your browser, follow these steps to explore and interac
    - Compared across fasting protocols if asked .
    - Highlight key findings and limitations.
    - Attribute sources used in the response.
-
+---
 ### 🧪 Sample Questions Used :
 
   - “What does research say about the 16:8 fasting method for Type 2 Diabetes?”
   - “Is alternate-day fasting effective for metabolic syndrome?”
   - “Compare outcomes of 5:2 vs. 16:8 fasting protocols.”
 
+## ⚙️ Setup Instructions
+
 ---
+1. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Configure environment variables**
+
+    Create a `.env` file in the root directory:
+    ```env
+    MODEL_PROVIDER=MODEL_NAME_HERE
+    API_KEY=YOUR_API_KEY_HERE
+    ```
+
+3. **Launch the app**
+    ```bash
+    streamlit run app.py
+    ```
+
+---
+

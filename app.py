@@ -2,6 +2,9 @@ import streamlit as st
 import time
 from vector_db import query_to_answer,data_ingestion
 # Store previous input in session state
+if "article_list" not in st.session_state:
+    st.session_state.article_list = ""
+
 if "prev_output" not in st.session_state:
     st.session_state.prev_output = ""
 if "prev_question" not in st.session_state:

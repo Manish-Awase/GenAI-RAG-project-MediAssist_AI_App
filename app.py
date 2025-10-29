@@ -55,7 +55,8 @@ if st.button("Get Answer"):
             if user_question.strip()!=st.session_state.prev_question:
                 st.session_state.prev_question = user_question
                 # TODO: Add response logic here
-                st.write(f"🔎 You asked: **{user_question}**")
+                st.write("🔎")
+                # st.write(f"🔎 You asked: **{user_question}**")
                 answer=query_to_answer(user_question)
                 st.session_state.prev_output=answer
                 # show response

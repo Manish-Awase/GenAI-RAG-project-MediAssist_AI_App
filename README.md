@@ -87,12 +87,14 @@ Once the app launches in your browser, follow these steps to explore and interac
 ## ⚙️ Setup Instructions
 
 ---
-1. **Install dependencies**
+1.**Clone the Repository**
+
+2. **Install dependencies**
     ```bash
     pip install -r requirements.txt
     ```
 
-2. **Configure environment variables**
+3. **Configure environment variables**
 
     Create a `.env` file in the root directory:
     ```env

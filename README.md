@@ -87,7 +87,7 @@ Once the app launches in your browser, follow these steps to explore and interac
 ## ⚙️ Setup Instructions
 
 ---
-1.**Clone the Repository**
+1. **Clone the Repository**
 
 2. **Install dependencies**
     ```bash
